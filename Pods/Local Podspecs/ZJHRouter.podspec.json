@@ -1,0 +1,22 @@
+{
+  "name": "ZJHRouter",
+  "version": "0.1.0",
+  "summary": "A short description of ZJHRouter.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/1025745401@qq.com/ZJHRouter",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "1025745401@qq.com": "1025745401@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/1025745401@qq.com/ZJHRouter.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "ZJHRouter/Classes/**/*"
+}

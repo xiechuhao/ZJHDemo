@@ -1,0 +1,58 @@
+PODS:
+  - Alamofire (5.4.2)
+  - MGJRouter_Swift (0.1.2)
+  - SDWebImage (5.8.4):
+    - SDWebImage/Core (= 5.8.4)
+  - SDWebImage/Core (5.8.4)
+  - ZJHBase (0.1.0):
+    - ZJHCommon
+    - ZJHHome
+    - ZJHMe
+  - ZJHCommon (0.1.0):
+    - SDWebImage (~> 5.8.4)
+  - ZJHHome (0.1.0):
+    - MGJRouter_Swift
+  - ZJHMe (0.1.0)
+
+DEPENDENCIES:
+  - Alamofire (= 5.4.2)
+  - MGJRouter_Swift (from `https://github.com/821385843/MGJRouter_Swift.git`)
+  - ZJHBase (from `Lib/ZJHBase`)
+  - ZJHCommon (from `Lib/ZJHCommon`)
+  - ZJHHome (from `Lib/ZJHHome`)
+  - ZJHMe (from `Lib/ZJHMe`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - SDWebImage
+
+EXTERNAL SOURCES:
+  MGJRouter_Swift:
+    :git: https://github.com/821385843/MGJRouter_Swift.git
+  ZJHBase:
+    :path: Lib/ZJHBase
+  ZJHCommon:
+    :path: Lib/ZJHCommon
+  ZJHHome:
+    :path: Lib/ZJHHome
+  ZJHMe:
+    :path: Lib/ZJHMe
+
+CHECKOUT OPTIONS:
+  MGJRouter_Swift:
+    :commit: 3413a09df3454030917adf152557d03d80be9cf8
+    :git: https://github.com/821385843/MGJRouter_Swift.git
+
+SPEC CHECKSUMS:
+  Alamofire: bfbc4c2fe5909b1d94fb4ef2277c6b3727ef5dae
+  MGJRouter_Swift: 2c44fffce704d4b83f187398d9c2b9a6baa2ae6a
+  SDWebImage: cf6922231e95550934da2ada0f20f2becf2ceba9
+  ZJHBase: 6b1551caf184d057df6174e4b32404a3b17bb9b0
+  ZJHCommon: 1c2d8207d7a19a5d7d241f0e797239b5295ca930
+  ZJHHome: f9363c1128eee8f5337a2a132faac900261372bd
+  ZJHMe: fa5142a45bc44ec71ffed2f71ba4a485b45b3bba
+
+PODFILE CHECKSUM: 7046bb0be55e5d6534e6c2e4a10a7d09bb473882
+
+COCOAPODS: 1.10.1

@@ -1,0 +1,8 @@
+${PODS_ROOT}/Target Support Files/Pods-managerDemo/Pods-managerDemo-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/MGJRouter_Swift/MGJRouter_Swift.framework
+${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework
+${BUILT_PRODUCTS_DIR}/ZJHBase/ZJHBase.framework
+${BUILT_PRODUCTS_DIR}/ZJHCommon/ZJHCommon.framework
+${BUILT_PRODUCTS_DIR}/ZJHHome/ZJHHome.framework
+${BUILT_PRODUCTS_DIR}/ZJHMe/ZJHMe.framework
