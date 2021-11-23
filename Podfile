@@ -11,6 +11,6 @@ target 'managerDemo' do
   pod 'MGJRouter_Swift', :git => 'https://github.com/821385843/MGJRouter_Swift.git'
   pod 'ZJHHome', :path => 'Lib/ZJHHome'
   pod 'ZJHBase', :path => 'Lib/ZJHBase'
-  pod 'ZJHCommon', :path => 'Lib/ZJHCommon'
+  pod 'ZJHCommon'
   pod 'ZJHMe', :path => 'Lib/ZJHMe'
 end

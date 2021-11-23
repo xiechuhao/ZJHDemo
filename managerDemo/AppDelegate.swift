@@ -8,16 +8,21 @@
 import UIKit
 import MGJRouter_Swift
 import ZJHHome
+import ZJHMe
+import ZJHBase
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        MGJRouter.registerWithHandler("ZJH://ZJHHome/HomeVC") { (param) in
-            let userInfo = param![MGJRouterParameterUserInfo] as! [String : Any]
-            let navicationVC = userInfo["navigation"] as! UINavigationController
-            navicationVC.pushViewController(HomeViewController(), animated: true)
-        }
+
+//        if #available(iOS 13.0, *) {} else {
+//            window = UIWindow.init()
+//            window?.frame = UIScreen.main.bounds
+//            window?.rootViewController = LDDTabBarController()
+//            window?.makeKeyAndVisible()
+//        }
+
         return true
     }
 

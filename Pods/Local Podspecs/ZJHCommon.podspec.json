@@ -1,9 +1,9 @@
 {
   "name": "ZJHCommon",
   "version": "0.1.0",
-  "summary": "A short description of ZJHCommon.",
+  "summary": "基类的内容",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/1025745401@qq.com/ZJHCommon",
+  "homepage": "https://github.com/xiechuhao/ZJHCommon",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,11 @@
     "1025745401@qq.com": "1025745401@qq.com"
   },
   "source": {
-    "git": "https://github.com/1025745401@qq.com/ZJHCommon.git",
+    "git": "https://github.com/xiechuhao/ZJHCommon.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "9.0"
+    "ios": "9.3"
   },
   "source_files": "ZJHCommon/Classes/**/*",
   "dependencies": {
